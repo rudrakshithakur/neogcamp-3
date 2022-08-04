@@ -3,6 +3,7 @@
 :root{
     --primary-colour:#1e40af;
     --off-white:#F3F4F6;
+    --yellow:rgb(255, 217, 0);
 
 }
 
@@ -85,7 +86,7 @@ hr{
     
  }
  .heading-inverted{
-   color: var(--primary-colour);
+   color: var(--yellow);
  }
 
  /*sections*/
