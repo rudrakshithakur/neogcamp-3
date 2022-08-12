@@ -139,6 +139,8 @@ hr{
 
 .row{
    display: flex;
+ 
+   
 }
 .column{
    
@@ -174,4 +176,13 @@ hr{
 .column.column-details{
  padding-left: 3rem;
  margin-right: 5rem;
+}
+
+.rowp{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.columnp{
+   padding: 0.5rem;
 }
