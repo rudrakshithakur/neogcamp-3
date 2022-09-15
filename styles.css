@@ -37,6 +37,7 @@ hr{
     background-color: var(--yellow);
     border-radius: 0.5rem;
     color: white;
+   
     
  }
  .link-secondary{
@@ -44,6 +45,7 @@ hr{
     border-radius: 0.5rem;
     border: 1px solid var(--primary-colour) ;
     margin: 1rem;
+
  }
  /*lists*/
  .list-non-bullet{
@@ -185,9 +187,17 @@ hr{
 }
 .columnp{
    padding: 0.5rem;
+
 }
 
 .flex-section{
    display: flex;
    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 480px) {
+
+.link {
+   font-size: x-small;
+}
 }
