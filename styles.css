@@ -186,3 +186,8 @@ hr{
 .columnp{
    padding: 0.5rem;
 }
+
+.flex-section{
+   display: flex;
+   flex-wrap: wrap;
+}
