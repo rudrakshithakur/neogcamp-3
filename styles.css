@@ -86,7 +86,9 @@ hr{
    display: block;
    margin: auto;
  }
-
+.hero-img:hover{
+   animation: slide 4s linear;
+}
  .hero-heading{
     padding-top: 1rem;
     color: gray;
@@ -200,4 +202,14 @@ hr{
 .link {
    font-size: x-small;
 }
+}
+
+.buttonb{
+   font-size: smaller;
+   margin: 1rem;
+   padding: 6px;
+   text-decoration: none;
+   border-radius: 3px;
+   color: #F3F4F6;
+   background-color: #552e0e;
 }
